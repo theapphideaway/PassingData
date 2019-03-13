@@ -14,6 +14,8 @@
 		0E61BADD2238976A00F2B17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E61BADB2238976A00F2B17F /* LaunchScreen.storyboard */; };
 		0E61BAE82238976A00F2B17F /* PassingDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61BAE72238976A00F2B17F /* PassingDataTests.swift */; };
 		0E61BAF32238976A00F2B17F /* PassingDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61BAF22238976A00F2B17F /* PassingDataUITests.swift */; };
+		0E61BB0122389A0400F2B17F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61BB0022389A0400F2B17F /* DetailViewController.swift */; };
+		0E61BB0322389AA800F2B17F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61BB0222389AA800F2B17F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0E61BAEE2238976A00F2B17F /* PassingDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E61BAF22238976A00F2B17F /* PassingDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataUITests.swift; sourceTree = "<group>"; };
 		0E61BAF42238976A00F2B17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E61BB0022389A0400F2B17F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0E61BB0222389AA800F2B17F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0E61BAD92238976A00F2B17F /* Assets.xcassets */,
 				0E61BADB2238976A00F2B17F /* LaunchScreen.storyboard */,
 				0E61BADE2238976A00F2B17F /* Info.plist */,
+				0E61BB0022389A0400F2B17F /* DetailViewController.swift */,
+				0E61BB0222389AA800F2B17F /* Person.swift */,
 			);
 			path = PassingData;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E61BB0122389A0400F2B17F /* DetailViewController.swift in Sources */,
 				0E61BAD52238976800F2B17F /* ViewController.swift in Sources */,
+				0E61BB0322389AA800F2B17F /* Person.swift in Sources */,
 				0E61BAD32238976800F2B17F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
